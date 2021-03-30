@@ -10,9 +10,9 @@ public class SalaryBreakup {
 	System.out.println("Enter your Base/Basic Annual Salary");
 	float x = sc.nextInt();
 	
-	float HRA = (float) (0.4 * a);
+	float HRA = (float) (0.4 * x);
 	float y = HRA+x;
-	float DA = (float) (0.6 * b);
+	float DA = (float) (0.6 * y);
 	
 	if (x < 200000) {
 		float tax = 0;

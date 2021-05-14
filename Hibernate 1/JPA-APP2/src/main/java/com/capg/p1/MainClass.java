@@ -26,9 +26,9 @@ public class MainClass {
 		
 		Student s = new Student();
 		s.setUsnNumber(7);
-		s.setStudentFName("Himagani");
-		s.setStudentLName("Mishra");
-		s.setPhoneNumber("9066827223");
+		s.setStudentFName("Raksha");
+		s.setStudentLName("Subramanya");
+		s.setPhoneNumber("91*******");
 		s.setMarks(71);
 		s.setSection('B');
 		
